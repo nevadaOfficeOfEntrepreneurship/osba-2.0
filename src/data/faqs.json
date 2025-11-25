@@ -1,15 +1,662 @@
 [
   {
+    "id": "updating-business-info",
+    "question": "How do I update my business address or company information?",
+    "shortAnswer": "You amend it with the Secretary of State via SilverFlume.",
+    "detailedAnswer": "Businesses can update addresses, registered agents, business names, or other information by filing an amendment online through SilverFlume. Some changes may require a fee.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["amendment", "address change", "entity update"],
+    "sources": [
+      {
+        "label": "SilverFlume Amendments",
+        "url": "https://www.nvsos.gov/sos/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Certain updates require formal filings and may incur processing fees."
+  },
+  {
+    "id": "annual-list",
+    "question": "What is the Annual List for Nevada businesses?",
+    "shortAnswer": "It is a required filing listing the officers, managers, or managing members of a business entity.",
+    "detailedAnswer": "Each year, Nevada entities such as LLCs and corporations must file an 'Annual List' of their officers or managing members with the Secretary of State. This is separate from the State Business License renewal and must be completed to remain in good standing.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["annual list", "compliance", "LLC"],
+    "sources": [
+      {
+        "label": "Nevada Secretary of State – Annual List Info",
+        "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/annual-list",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Late filings may incur penalties or lead to administrative dissolution."
+  },
+  {
+    "id": "business-address",
+    "question": "Can I use a virtual address or P.O. Box for my business?",
+    "shortAnswer": "Sometimes—depends on filing type.",
+    "detailedAnswer": "Nevada allows mailing addresses that are virtual or P.O. boxes, but formation documents often require a physical registered agent address located in Nevada.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["address", "registered agent", "mailing"],
+    "sources": [
+      {
+        "label": "Nevada Registered Agent Requirements",
+        "url": "https://www.nvsos.gov/sos/businesses/registered-agent",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Confirm address requirements based on entity type."
+  },
+  {
+    "id": "beneficial-ownership-report",
+    "question": "Do I need to file a Beneficial Ownership Information report (BOI)?",
+    "shortAnswer": "Yes—most entities must report ownership to FinCEN starting in 2024.",
+    "detailedAnswer": "Under the Corporate Transparency Act, most corporations, LLCs, and reporting companies must submit a Beneficial Ownership Information (BOI) report to FinCEN disclosing individuals who own or control the entity. This is a federal requirement separate from state filings.",
+    "jurisdiction": "Federal",
+    "topicTags": ["BOI", "FinCEN", "ownership reporting"],
+    "sources": [
+      {
+        "label": "FinCEN BOI Filing Portal",
+        "url": "https://www.fincen.gov/boi",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Deadlines and exemptions apply depending on company status and formation date."
+  },
+  {
+    "id": "banking-requirements",
+    "question": "What documents do I need to open a business bank account?",
+    "shortAnswer": "Typically your EIN, formation documents, and ID.",
+    "detailedAnswer": "Most banks require an EIN, Articles of Organization or Incorporation, Operating Agreement or bylaws, business license, and personal identification to open a business account. Requirements may vary by bank.",
+    "jurisdiction": "United States (general)",
+    "topicTags": ["bank account", "documentation"],
+    "sources": [
+      {
+        "label": "IRS EIN Guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Banks may have additional internal compliance requirements."
+  },
+  {
+    "id": "business-license-cost",
+    "question": "How much does the Nevada State Business License cost?",
+    "shortAnswer": "Most businesses pay $200 annually; corporations pay $500.",
+    "detailedAnswer": "Nevada charges $200 annually for most business types, including LLCs and sole proprietors. Corporations pay $500 per year. This fee is paid to the Secretary of State through SilverFlume.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["business license", "fees", "cost"],
+    "sources": [
+      {
+        "label": "NRS 76 Fee Schedule",
+        "url": "https://www.leg.state.nv.us/NRS/NRS-076.html",
+        "type": "statute"
+      }
+    ],
+    "disclaimer": "Fees are subject to legislative change."
+  },
+  {
+    "id": "business-license-renewal",
+    "question": "How often do I need to renew my Nevada State Business License?",
+    "shortAnswer": "Annually.",
+    "detailedAnswer": "Nevada requires businesses to renew their State Business License every year on the anniversary of the original filing date. Renewals are processed through SilverFlume.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["renewal", "state license", "annual requirement"],
+    "sources": [
+      {
+        "label": "NV State Business License Renewal",
+        "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/state-business-license",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Late renewals may result in penalties."
+  },
+  {
+    "id": "state-and-city-license",
+    "question": "Do I need a city business license as well as a state license?",
+    "shortAnswer": "In most cases, yes—one at the state level and one at the local city or county level.",
+    "detailedAnswer": "Nevada requires a State Business License through the Secretary of State, and most local jurisdictions also require their own business license. If you operate within a city boundary, you usually need a city license. If outside city limits, licensing is often through the county.",
+    "jurisdiction": "Nevada (state and local)",
+    "topicTags": ["city license", "state license", "compliance"],
+    "sources": [
+      {
+        "label": "Nevada State Business License Overview",
+        "url": "https://www.nvsos.gov/sos/businesses/start-a-business",
+        "type": "website"
+      },
+      {
+        "label": "Clark County Business Licensing",
+        "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/business_license/index.php",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Always verify with the specific city or county where you operate."
+  },
+
+  {
+    "id": "updating-business-info",
+    "question": "How do I update my business address or company information?",
+    "shortAnswer": "You amend it with the Secretary of State via SilverFlume.",
+    "detailedAnswer": "Businesses can update addresses, registered agents, business names, or other information by filing an amendment online through SilverFlume. Some changes may require a fee.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["amendment", "address change", "entity update"],
+    "sources": [
+      {
+        "label": "SilverFlume Amendments",
+        "url": "https://www.nvsos.gov/sos/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Certain updates require formal filings and may incur processing fees."
+  },
+  {
+    "id": "online-selling-platform",
+    "question": "Do I need a license to sell on Etsy, Amazon, or eBay?",
+    "shortAnswer": "Yes—if you are operating a business in Nevada.",
+    "detailedAnswer": "Online sellers must follow Nevada business licensing requirements and may also need sales tax permits depending on product type and sales volume. Selling exclusively through a platform does not exempt licensing.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["online sales", "marketplaces"],
+    "sources": [
+      {
+        "label": "Nevada Department of Taxation – Sales Tax Info",
+        "url": "https://tax.nv.gov/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Tax obligations vary by sales channel."
+  },
+  {
+    "id": "independent-contractor-license",
+    "question": "Do independent contractors need a business license?",
+    "shortAnswer": "Yes—if doing business in Nevada.",
+    "detailedAnswer": "Independent contractors are considered to be operating their own business and typically must obtain a Nevada State Business License, even if they work on contract for a single client.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["independent contractor", "business license"],
+    "sources": [
+      {
+        "label": "NV State Licensing Requirements",
+        "url": "https://www.nvsos.gov/sos/businesses/start-a-business",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Always verify based on specific work type and exemption status."
+  },
+  {
+    "id": "sales-tax-permits",
+    "question": "Do I need a sales tax permit to sell goods or taxable services?",
+    "shortAnswer": "Yes—if your business sells taxable goods or services.",
+    "detailedAnswer": "Nevada businesses that sell taxable items or certain services must register for a Sales and Use Tax permit through the Nevada Department of Taxation. This includes retail goods, digital goods in some cases, prepared food, and more.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["sales tax", "taxation", "retail"],
+    "sources": [
+      {
+        "label": "Nevada Department of Taxation – Sales/Use Registration",
+        "url": "https://tax.nv.gov/WheredoIFile/Registration/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Verify tax classification for your business activities with the Nevada Department of Taxation."
+  },
+  {
+    "id": "state-and-city-license",
+    "question": "Do I need a city business license as well as a state license?",
+    "shortAnswer": "In most cases, yes—one at the state level and one at the local city or county level.",
+    "detailedAnswer": "Nevada requires a State Business License through the Secretary of State, and most local jurisdictions also require their own business license. If you operate within a city boundary, you usually need a city license. If outside city limits, licensing is often through the county.",
+    "jurisdiction": "Nevada (state and local)",
+    "topicTags": ["city license", "state license", "compliance"],
+    "sources": [
+      {
+        "label": "Nevada State Business License Overview",
+        "url": "https://www.nvsos.gov/sos/businesses/start-a-business",
+        "type": "website"
+      },
+      {
+        "label": "Clark County Business Licensing",
+        "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/business_license/index.php",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Always verify with the specific city or county where you operate."
+  },
+  {
+    "id": "beneficial-ownership-report",
+    "question": "Do I need to file a Beneficial Ownership Information report (BOI)?",
+    "shortAnswer": "Yes—most entities must report ownership to FinCEN starting in 2024.",
+    "detailedAnswer": "Under the Corporate Transparency Act, most corporations, LLCs, and reporting companies must submit a Beneficial Ownership Information (BOI) report to FinCEN disclosing individuals who own or control the entity. This is a federal requirement separate from state filings.",
+    "jurisdiction": "Federal",
+    "topicTags": ["BOI", "FinCEN", "ownership reporting"],
+    "sources": [
+      {
+        "label": "FinCEN BOI Filing Portal",
+        "url": "https://www.fincen.gov/boi",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Deadlines and exemptions apply depending on company status and formation date."
+  },
+  {
+    "id": "employee-vs-contractor",
+    "question": "How do I know if a worker is an employee or independent contractor?",
+    "shortAnswer": "Classification depends on behavioral and financial control tests.",
+    "detailedAnswer": "The IRS and Nevada labor agencies evaluate whether a worker is an employee or contractor based on control over their work, independence, and financial relationship to the business. Misclassification can lead to fines, back taxes, and other liabilities.",
+    "jurisdiction": "Federal + Nevada labor law",
+    "topicTags": ["employee", "contractor", "workforce classification"],
+    "sources": [
+      {
+        "label": "IRS Worker Classification Guidelines",
+        "url": "https://www.irs.gov/newsroom/understanding-employee-vs-contractor-designation",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Consult legal or HR counsel for complex workforce determinations."
+  },
+  {
+    "id": "ein-number",
+    "question": "Do I need an EIN for my business?",
+    "shortAnswer": "Most businesses do, especially if hiring employees or forming an LLC or corporation.",
+    "detailedAnswer": "An Employer Identification Number (EIN) is a federal tax ID assigned by the IRS. You need an EIN if you have employees, operate as a corporation or partnership, or form an LLC with multiple members. Sole proprietors without employees may use their SSN but often still choose to obtain an EIN for banking and privacy reasons.",
+    "jurisdiction": "Federal (IRS)",
+    "topicTags": ["EIN", "IRS", "tax ID"],
+    "sources": [
+      {
+        "label": "IRS EIN Application",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Confirm with a tax professional if unsure whether your specific business entity needs an EIN."
+  },
+  {
+    "id": "nonprofit-formation",
+    "question": "How do I form a nonprofit organization in Nevada?",
+    "shortAnswer": "You register as a nonprofit corporation with the Nevada Secretary of State and apply separately for IRS 501(c)(3) tax-exempt status.",
+    "detailedAnswer": "Nevada nonprofit incorporation is done through SilverFlume. To receive federal tax exempt recognition, you must submit IRS Form 1023 or 1023-EZ. Note that Nevada incorporation alone does not grant tax exemption.",
+    "jurisdiction": "Nevada + Federal IRS",
+    "topicTags": ["nonprofit", "501c3", "charity"],
+    "sources": [
+      {
+        "label": "Nevada Nonprofit Filing",
+        "url": "https://www.nvsos.gov/sos/businesses/nonprofit-entities",
+        "type": "website"
+      },
+      {
+        "label": "IRS Nonprofit Application",
+        "url": "https://www.irs.gov/charities-non-profits/applying-for-tax-exempt-status",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "IRS approval is required to receive charitable donation tax eligibility."
+  },
+  {
+    "id": "employee-hiring",
+    "question": "What do I need to do before hiring my first employee?",
+    "shortAnswer": "You must obtain an EIN, register with the state, and secure workers’ compensation insurance.",
+    "detailedAnswer": "Nevada employers must register with the Department of Employment, Training & Rehabilitation (DETR), obtain workers’ compensation coverage, maintain employment records, and comply with wage and labor laws.",
+    "jurisdiction": "Nevada + Federal",
+    "topicTags": ["employment", "hiring", "taxation"],
+    "sources": [
+      {
+        "label": "Nevada DETR – Employer Registration",
+        "url": "https://detr.nv.gov/page/employer_registration",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Consult HR or labor specialists when employing workers."
+  },
+  {
+    "id": "import-export",
+    "question": "Are there special requirements for import/export businesses?",
+    "shortAnswer": "Federal requirements apply, and some products require special permits.",
+    "detailedAnswer": "Businesses involved in cross-border trade may require customs permits, FDA compliance for certain goods, or licensing through the Department of Commerce. Nevada does not require specific import/export permits at the state level.",
+    "jurisdiction": "United States Federal",
+    "topicTags": ["import", "export", "customs"],
+    "sources": [
+      {
+        "label": "U.S. Customs and Border Protection",
+        "url": "https://www.cbp.gov/trade",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Requirements vary by product category."
+  },
+  {
+    "id": "zoning-check",
+    "question": "How do I check if my business location is properly zoned?",
+    "shortAnswer": "You must verify through your local zoning department.",
+    "detailedAnswer": "Before signing a lease or operating a business, you should confirm that the intended business activity is allowed at that location. Zoning approval varies by city or county and can be checked through municipality zoning maps or planning departments.",
+    "jurisdiction": "Local — city or county dependent",
+    "topicTags": ["zoning", "business location", "planning"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Zoning Maps",
+        "url": "https://www.lasvegasnevada.gov/Residents/Maps/Zoning",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Zoning requirements may impact signage, parking, and allowable business types."
+  },
+  {
+    "id": "sole-proprietorship",
+    "question": "Do sole proprietors need a business license?",
+    "shortAnswer": "Yes—unless exempt under statute.",
+    "detailedAnswer": "In Nevada, sole proprietors generally must obtain a State Business License, although there are exceptions for certain low-revenue or specific occupations identified by statute.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["sole proprietor", "state license"],
+    "sources": [
+      {
+        "label": "NRS 76 – State Business License",
+        "url": "https://www.leg.state.nv.us/NRS/NRS-076.html",
+        "type": "statute"
+      }
+    ],
+    "disclaimer": "Confirm status with the Secretary of State."
+  },
+  {
+    "id": "commerce-tax",
+    "question": "What is the Nevada Commerce Tax?",
+    "shortAnswer": "It applies to businesses with more than $4 million in Nevada gross revenue annually.",
+    "detailedAnswer": "The Nevada Commerce Tax is a gross receipts tax. Businesses only owe Commerce Tax if their Nevada-source revenue exceeds $4 million in a fiscal year. Rates vary by industry classification, and the filing is done through the Nevada Department of Taxation.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["commerce tax", "revenue", "tax filing"],
+    "sources": [
+      {
+        "label": "Nevada Commerce Tax Overview",
+        "url": "https://tax.nv.gov/WheredoIFile/Commerce_Tax/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Businesses below $4 million must still file a return stating exemption."
+  },
+  {
+    "id": "taxes-nevada",
+    "question": "Does Nevada have a corporate or business income tax?",
+    "shortAnswer": "Nevada does not have a state corporate or individual income tax.",
+    "detailedAnswer": "Nevada entrepreneurs do not pay state corporate income tax or personal income tax. However, some businesses may be subject to Commerce Tax if gross Nevada revenue exceeds $4 million annually, and may also have sales tax or employer taxes depending on operations.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["Nevada tax", "commerce tax", "income tax"],
+    "sources": [
+      {
+        "label": "Nevada Department of Taxation – Commerce Tax",
+        "url": "https://tax.nv.gov/WheredoIFile/Commerce_Tax/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Consult a tax advisor for your specific business situation."
+  },
+
+  {
+    "id": "home-occupation-permit",
+    "question": "What is a Home Occupation Permit?",
+    "shortAnswer": "A zoning approval for operating a business from a residence.",
+    "detailedAnswer": "Local jurisdictions in Nevada may require home-based businesses to obtain a Home Occupation Permit, which confirms that the business activity complies with residential zoning.",
+    "jurisdiction": "Local",
+    "topicTags": ["home business", "zoning"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Home Occupation Policy",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses/Home-Based-Businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Rules differ by city and county."
+  },
+  {
+    "id": "health-permits",
+    "question": "Do I need a health permit for a food business?",
+    "shortAnswer": "Yes—food-related businesses require health department permitting.",
+    "detailedAnswer": "Restaurants, caterers, food trucks, and other food establishments must obtain health permits through the Southern Nevada Health District (in Clark County) or equivalent regional health authority elsewhere in Nevada. Inspections and food safety compliance are required.",
+    "jurisdiction": "Nevada (regional)",
+    "topicTags": ["food service", "health permit", "SNHD"],
+    "sources": [
+      {
+        "label": "Southern Nevada Health District – Food Permits",
+        "url": "https://www.southernnevadahealthdistrict.org/permits-and-licensing/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Requirements vary by county and food preparation type."
+  },
+  {
+    "id": "import-export",
+    "question": "Are there special requirements for import/export businesses?",
+    "shortAnswer": "Federal requirements apply, and some products require special permits.",
+    "detailedAnswer": "Businesses involved in cross-border trade may require customs permits, FDA compliance for certain goods, or licensing through the Department of Commerce. Nevada does not require specific import/export permits at the state level.",
+    "jurisdiction": "United States Federal",
+    "topicTags": ["import", "export", "customs"],
+    "sources": [
+      {
+        "label": "U.S. Customs and Border Protection",
+        "url": "https://www.cbp.gov/trade",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Requirements vary by product category."
+  },
+  {
+    "id": "banking-requirements",
+    "question": "What documents do I need to open a business bank account?",
+    "shortAnswer": "Typically your EIN, formation documents, and ID.",
+    "detailedAnswer": "Most banks require an EIN, Articles of Organization or Incorporation, Operating Agreement or bylaws, business license, and personal identification to open a business account. Requirements may vary by bank.",
+    "jurisdiction": "United States (general)",
+    "topicTags": ["bank account", "documentation"],
+    "sources": [
+      {
+        "label": "IRS EIN Guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Banks may have additional internal compliance requirements."
+  },
+  {
+    "id": "registered-agent",
+    "question": "What is a registered agent and do I need one?",
+    "shortAnswer": "Yes—most entities must designate a Nevada registered agent.",
+    "detailedAnswer": "A registered agent receives legal notices, service of process, and compliance communications. The agent must have a physical Nevada address and be available during business hours.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["registered agent", "LLC", "legal contact"],
+    "sources": [
+      {
+        "label": "NV Registered Agent Info",
+        "url": "https://www.nvsos.gov/sos/businesses/registered-agent",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Failure to designate an agent may affect business standing."
+  },
+  {
+    "id": "trademark-protection",
+    "question": "How do I trademark my business name or logo?",
+    "shortAnswer": "Trademarks are filed with the USPTO.",
+    "detailedAnswer": "Federal trademarks protect brand identity for goods and services. Filing requires demonstrating commercial use of the mark and can take several months to a year for approval.",
+    "jurisdiction": "Federal",
+    "topicTags": ["trademark", "intellectual property"],
+    "sources": [
+      {
+        "label": "USPTO Trademark Process",
+        "url": "https://www.uspto.gov/trademarks/basics",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Consult a trademark attorney for complex applications."
+  },
+  {
+    "id": "contractor-license",
+    "question": "Do I need a Nevada contractor’s license for construction or home improvement work?",
+    "shortAnswer": "Yes—if contracting work exceeds $1,000 or requires permits.",
+    "detailedAnswer": "Any construction-related business operating in Nevada must be licensed through the Nevada State Contractors Board if performing tasks valued at $1,000 or more or requiring building permits. Separate classifications exist for general contractors, plumbing, electrical, HVAC, etc.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["contractor", "construction", "licensing"],
+    "sources": [
+      {
+        "label": "Nevada State Contractors Board",
+        "url": "https://www.nvcontractorsboard.com/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Operating without a contractor’s license can result in fines or legal action."
+  },
+  {
+    "id": "good-standing",
+    "question": "How do I obtain a Certificate of Good Standing in Nevada?",
+    "shortAnswer": "You request it through SilverFlume.",
+    "detailedAnswer": "A Certificate of Good Standing verifies that your business is properly registered, compliant, and in good status with the Nevada Secretary of State. It can be requested and purchased through the SilverFlume business portal.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["good standing", "certificate", "compliance"],
+    "sources": [
+      {
+        "label": "NV Certificate of Good Standing",
+        "url": "https://www.nvsos.gov/sos/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Some agencies or contract partners may require this certificate for verification."
+  },
+  {
+    "id": "copyright-business",
+    "question": "Should I copyright content, media, or materials my business creates?",
+    "shortAnswer": "It is recommended for original content.",
+    "detailedAnswer": "Copyright automatically applies when you create original works, but registering with the U.S. Copyright Office provides additional legal protections and enforcement tools.",
+    "jurisdiction": "Federal",
+    "topicTags": ["copyright", "media", "IP"],
+    "sources": [
+      {
+        "label": "U.S. Copyright Office",
+        "url": "https://www.copyright.gov/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Registration is optional but provides legal benefits."
+  },
+  {
+    "id": "business-bank-account",
+    "question": "Do I need a separate bank account for my business?",
+    "shortAnswer": "If you formed an LLC or corporation—yes.",
+    "detailedAnswer": "LLCs and corporations must maintain financial separation from personal funds to preserve liability protection. Sole proprietors are not legally required to separate funds but benefit from doing so for bookkeeping and tax preparation.",
+    "jurisdiction": "Federal + best practice",
+    "topicTags": ["banking", "LLC", "financial separation"],
+    "sources": [
+      {
+        "label": "IRS Recordkeeping Guidance",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Failure to separate business funds can compromise liability protections."
+  },
+  {
+    "id": "multi-state-business",
+    "question": "If I operate in multiple states, do I need to register in each one?",
+    "shortAnswer": "Yes—if conducting business activities in each state.",
+    "detailedAnswer": "Businesses expanding outside their formation state must typically register as a foreign entity in each additional state. This applies even for digital or service-based businesses that have employees or physical assets in another state.",
+    "jurisdiction": "United States (multi-state)",
+    "topicTags": ["foreign registration", "multi-state business"],
+    "sources": [
+      {
+        "label": "IRS Business Expansion Guidance",
+        "url": "https://www.irs.gov/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Registration triggers vary by jurisdiction."
+  },
+  {
+    "id": "city-las-vegas",
+    "question": "Where do I go to apply for a Las Vegas business license?",
+    "shortAnswer": "Through the City of Las Vegas Business Licensing Office.",
+    "detailedAnswer": "If your business operates within the City of Las Vegas limits, you apply for a business license from the City’s Business Licensing Division. You can apply online, verify zoning, and determine requirements by business type.",
+    "jurisdiction": "City of Las Vegas",
+    "topicTags": ["Las Vegas", "business license"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Business Licensing",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses",
+        "type": "website"
+      },
+      {
+        "label": "Las Vegas License Application Portal",
+        "url": "https://aca-prod.accela.com/LASVEGAS",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "If located outside Las Vegas city limits, your licensing agency may be a different jurisdiction."
+  },
+  {
+    "id": "privacy-filing",
+    "question": "Can I keep my name private on business filings?",
+    "shortAnswer": "Partially—Nevada requires disclosure of officers/managers, but registered agents can protect addresses.",
+    "detailedAnswer": "Nevada requires identifying names of business officers or managers on official filings, but the use of a commercial registered agent can keep personal addresses off the public record. Some advanced privacy structures may require legal assistance.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["privacy", "anonymous LLC", "registered agent"],
+    "sources": [
+      {
+        "label": "NV Business Filing Requirements",
+        "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "True anonymity is limited under Nevada law."
+  },
+  {
+    "id": "business-operating-without-license",
+    "question": "What happens if I operate a business without proper licensing?",
+    "shortAnswer": "You can face fines, penalties, and business closure orders.",
+    "detailedAnswer": "Nevada agencies may issue administrative penalties, including fines, back taxes, forced license acquisition, and potential shutdown of business operations until compliance is achieved.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["compliance", "enforcement", "penalties"],
+    "sources": [
+      {
+        "label": "Nevada Business Compliance Guidelines",
+        "url": "https://www.nvsos.gov/sos/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Penalties vary by agency and industry."
+  },
+  {
+    "id": "grant-vs-loan",
+    "question": "What is the difference between a business grant and a loan?",
+    "shortAnswer": "A grant does not need to be repaid; a loan must be repaid with interest.",
+    "detailedAnswer": "Grants are typically awarded by government agencies, nonprofits, or private entities and are often competitive and targeted for specific purposes. Loans are debt instruments requiring repayment and may be offered through banks, CDFIs, SBA lenders, or state programs.",
+    "jurisdiction": "General",
+    "topicTags": ["grant", "loan", "funding"],
+    "sources": [
+      {
+        "label": "SBA Funding Programs",
+        "url": "https://www.sba.gov/funding-programs",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Many grant programs have strict eligibility and reporting requirements."
+  },
+
+  {
+    "id": "what-is-silverflume",
+    "question": "What is SilverFlume?",
+    "shortAnswer": "SilverFlume is Nevada’s official business portal.",
+    "detailedAnswer": "SilverFlume is the State of Nevada’s integrated online business registration system where entrepreneurs can register entities, apply for a State Business License, file annual lists, get compliance reminders, and connect to agency partners such as Department of Taxation and DETR.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["SilverFlume", "business licensing", "online portal"],
+    "sources": [
+      {
+        "label": "SilverFlume Home",
+        "url": "https://www.nvsos.gov/silverflume",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "SilverFlume is the authoritative system for state-level filings in Nevada."
+  },
+  {
     "id": "state-business-license-llc",
     "question": "Do I need a Nevada state business license for my LLC?",
-    "shortAnswer": "In most cases, yes. Nevada requires most businesses, including LLCs, to obtain a State Business License from the Secretary of State each year.",
-    "detailedAnswer": "Nevada law generally requires that each person or entity doing business in the state obtain and maintain a State Business License, unless exempt (for example, certain nonprofit organizations or entities with specific statutory exemptions). For LLCs, the license is obtained and renewed through the Nevada Secretary of State, often at the same time as filing the annual list.",
+    "shortAnswer": "In most cases, yes.",
+    "detailedAnswer": "Nevada law requires most business entities—including LLCs—to obtain a State Business License annually. Certain entities may be exempt, such as qualified nonprofit organizations. The license is issued by the Nevada Secretary of State.",
     "jurisdiction": "Nevada (statewide)",
     "topicTags": ["state business license", "LLC", "registration"],
     "sources": [
       {
         "label": "Nevada Secretary of State – State Business License",
-        "url": "https://www.nvsos.gov/some-path",
+        "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/state-business-license",
         "type": "website"
       },
       {
@@ -18,6 +665,300 @@
         "type": "statute"
       }
     ],
-    "disclaimer": "This answer is for general informational purposes and does not replace official guidance from Nevada agencies. If your situation is complex or unusual, please verify with the Secretary of State or OSBA."
+    "disclaimer": "Verify any exemptions or special conditions with the Nevada Secretary of State."
+  },
+  {
+    "id": "home-based-business-license",
+    "question": "What if I operate from my home – do I still need a license?",
+    "shortAnswer": "Usually yes—home-based businesses typically still require licensing and may require zoning clearance.",
+    "detailedAnswer": "Nevada generally requires businesses to be licensed regardless of where they physically operate, including from a home address. Local jurisdictions often have home-occupation rules, including restrictions related to signage, customers visiting the home, and parking.",
+    "jurisdiction": "Nevada + local municipalities",
+    "topicTags": ["home based business", "zoning", "licensing"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Home-Based Business Guidelines",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses/Home-Based-Businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Rules vary by jurisdiction—check your local city or county requirements."
+  },
+  {
+    "id": "foreign-entity",
+    "question": "Do I need to register as a foreign entity if my business is formed in another state?",
+    "shortAnswer": "Yes—if you are doing business in Nevada.",
+    "detailedAnswer": "Businesses formed outside Nevada that operate within the state must file as a foreign entity through the Secretary of State. 'Doing business' includes having employees, a physical presence, or sustained commercial engagement in Nevada.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["foreign LLC", "out-of-state business", "registration"],
+    "sources": [
+      {
+        "label": "Nevada Foreign Entity Registration",
+        "url": "https://www.nvsos.gov/sos/businesses/start-a-business/qualify-a-business",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Failure to register can limit legal rights and impose penalties."
+  },
+  {
+    "id": "business-insurance",
+    "question": "Do I need business insurance in Nevada?",
+    "shortAnswer": "Some businesses are legally required to carry insurance and others do so voluntarily for risk protection.",
+    "detailedAnswer": "Businesses with employees must carry workers' compensation insurance. Depending on industry, you may also need liability insurance, professional liability, commercial auto coverage, or bonding. Insurance can protect against lawsuits and unexpected losses.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["insurance", "workers comp", "liability"],
+    "sources": [
+      {
+        "label": "Nevada Division of Insurance",
+        "url": "https://doi.nv.gov/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Consult a licensed insurance agent to determine appropriate coverage."
+  },
+  {
+    "id": "multi-location",
+    "question": "Do I need separate licenses for multiple business locations?",
+    "shortAnswer": "Yes—each location typically requires its own municipal license.",
+    "detailedAnswer": "If your business has multiple physical branches, each location usually needs its own local business license and zoning compliance approval, while the state license covers the statewide entity.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["multiple locations", "branch offices"],
+    "sources": [
+      {
+        "label": "Clark County Business License",
+        "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/business_license/index.php",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Rules vary by jurisdiction."
+  },
+  {
+    "id": "las-vegas-business-license",
+    "question": "Where do I go to apply for a Las Vegas business license?",
+    "shortAnswer": "Through the City of Las Vegas Business Licensing Office.",
+    "detailedAnswer": "If your business operates within the City of Las Vegas limits, you apply for a business license from the City’s Business Licensing Division. You can apply online, verify zoning, and determine requirements by business type.",
+    "jurisdiction": "City of Las Vegas",
+    "topicTags": ["Las Vegas", "business license"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Business Licensing",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses",
+        "type": "website"
+      },
+      {
+        "label": "Las Vegas License Application Portal",
+        "url": "https://aca-prod.accela.com/LASVEGAS",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "If located outside Las Vegas city limits, your licensing agency may be a different jurisdiction."
+  },
+  {
+    "id": "microbusiness",
+    "question": "Are there special rules for microbusinesses or very small startups?",
+    "shortAnswer": "Licensing still applies, but some programs assist microbusinesses.",
+    "detailedAnswer": "Nevada still requires licensing regardless of revenue size, but certain regulatory reductions and assistance may be available depending on sector and activity. SBA microloan programs and local entrepreneurial resources may support new small companies.",
+    "jurisdiction": "Nevada + Federal",
+    "topicTags": ["microbusiness", "startup"],
+    "sources": [
+      {
+        "label": "SBA Microloan Program",
+        "url": "https://www.sba.gov/funding-programs/loans/microloans",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "No automatic exemptions apply solely due to small size."
+  },
+  {
+    "id": "unemployment-insurance",
+    "question": "Do I need unemployment insurance for employees?",
+    "shortAnswer": "Yes, Nevada requires employer contributions.",
+    "detailedAnswer": "Nevada mandates that employers pay unemployment insurance taxes based on reported wages. These payments support the state unemployment compensation system.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["unemployment insurance", "employers", "tax"],
+    "sources": [
+      {
+        "label": "Nevada DETR UI Employer Information",
+        "url": "https://ui.nv.gov/ESSHTML/employer_index.html",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Contribution rates vary by employer experience levels."
+  },
+  {
+    "id": "minor-employment",
+    "question": "Can I hire minors in Nevada?",
+    "shortAnswer": "Yes, but with restrictions.",
+    "detailedAnswer": "Nevada allows the employment of minors with specific age and hour limitations. Hazardous occupations are prohibited for minors under federal and state labor laws.",
+    "jurisdiction": "Nevada + Federal",
+    "topicTags": ["minor labor", "employment law"],
+    "sources": [
+      {
+        "label": "Nevada Child Labor Laws",
+        "url": "https://labor.nv.gov/Wages/Child_Labor/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Additional industry restrictions may apply."
+  },
+
+  {
+    "id": "business-credit",
+    "question": "How do I build business credit?",
+    "shortAnswer": "Start with a separate business entity, EIN, bank account, and vendor credit relationships.",
+    "detailedAnswer": "Business credit is developed by establishing financial independence from personal identity. This includes forming an LLC or corporation, obtaining an EIN, opening business bank accounts, engaging with vendors that report to credit agencies, and maintaining timely payments.",
+    "jurisdiction": "United States (general)",
+    "topicTags": ["business credit", "funding", "finance"],
+    "sources": [
+      {
+        "label": "Dun & Bradstreet – Business Credit",
+        "url": "https://www.dnb.com/business-solutions/business-credit.html",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Business credit reporting agencies may differ from consumer credit agencies."
+  },
+  {
+    "id": "certificate-of-good-standing",
+    "question": "How do I obtain a Certificate of Good Standing in Nevada?",
+    "shortAnswer": "You request it through SilverFlume.",
+    "detailedAnswer": "A Certificate of Good Standing verifies that your business is properly registered, compliant, and in good status with the Nevada Secretary of State. It can be requested and purchased through the SilverFlume business portal.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["good standing", "certificate", "compliance"],
+    "sources": [
+      {
+        "label": "NV Certificate of Good Standing",
+        "url": "https://www.nvsos.gov/sos/businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Some agencies or contract partners may require this certificate for verification."
+  },
+  {
+    "id": "business-incentives",
+    "question": "Are there tax incentives or grants available for Nevada businesses?",
+    "shortAnswer": "Yes—Nevada offers incentives for qualifying industries.",
+    "detailedAnswer": "Business incentives may be available through the Governor’s Office of Economic Development (GOED), especially for companies in manufacturing, technology, logistics, and emerging industry sectors.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["incentives", "GOED", "tax abatements"],
+    "sources": [
+      {
+        "label": "GOED Incentives",
+        "url": "https://goed.nv.gov/programs/incentives/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Qualification criteria apply."
+  },
+  {
+    "id": "cottage-food",
+    "question": "Can I sell food from my home kitchen under Cottage Food laws?",
+    "shortAnswer": "Yes—but only certain shelf-stable foods and with proper permits.",
+    "detailedAnswer": "Nevada allows cottage food operations to produce low-risk foods such as baked goods, candies, dry mixes, and jams for sale without a commercial kitchen. However, permitted items must be non-perishable and producers must register and comply with labeling guidelines.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["cottage food", "home kitchen", "baked goods"],
+    "sources": [
+      {
+        "label": "Nevada Cottage Food Law Guidelines",
+        "url": "https://www.leg.state.nv.us/NAC/NAC-446.html#NAC446Sec856",
+        "type": "statute"
+      }
+    ],
+    "disclaimer": "Certain foods like meats, dairy products, seafood, and cooked foods are prohibited from home production."
+  },
+  {
+    "id": "home-based-business-license",
+    "question": "What if I operate from my home – do I still need a license?",
+    "shortAnswer": "Usually yes—home-based businesses typically still require licensing and may require zoning clearance.",
+    "detailedAnswer": "Nevada generally requires businesses to be licensed regardless of where they physically operate, including from a home address. Local jurisdictions often have home-occupation rules, including restrictions related to signage, customers visiting the home, and parking.",
+    "jurisdiction": "Nevada + local municipalities",
+    "topicTags": ["home based business", "zoning", "licensing"],
+    "sources": [
+      {
+        "label": "City of Las Vegas Home-Based Business Guidelines",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses/Home-Based-Businesses",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Rules vary by jurisdiction—check your local city or county requirements."
+  },
+  {
+    "id": "ucc-filing",
+    "question": "What is a UCC filing and does my business need one?",
+    "shortAnswer": "UCC filings record liens or security interests on business assets.",
+    "detailedAnswer": "Uniform Commercial Code (UCC) filings are often used when securing financing or leasing equipment. A lender or creditor typically files a UCC-1 to establish priority over collateral.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["UCC", "financing", "collateral"],
+    "sources": [
+      {
+        "label": "Nevada UCC Filing",
+        "url": "https://www.nvsos.gov/sos/businesses/ucc",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Businesses generally do not file UCC documents unless financing is involved."
+  },
+  {
+    "id": "franchise-business",
+    "question": "What if I am operating a franchise business?",
+    "shortAnswer": "Both state and franchisor requirements may apply.",
+    "detailedAnswer": "Franchise businesses must follow Nevada licensing and registration rules, while also adhering to franchisor policies. Some franchises may require proof of insurance, training, and financial disclosures.",
+    "jurisdiction": "Nevada",
+    "topicTags": ["franchise", "ownership"],
+    "sources": [
+      {
+        "label": "Federal Franchise Rule - FTC",
+        "url": "https://www.ftc.gov/business-guidance/resources/compliance-guide-franchise-rule",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Franchise terms vary by contract."
+  },
+  {
+    "id": "minors-license",
+    "question": "Can I hire minors in Nevada?",
+    "shortAnswer": "Yes, but with restrictions.",
+    "detailedAnswer": "Nevada allows the employment of minors with specific age and hour limitations. Hazardous occupations are prohibited for minors under federal and state labor laws.",
+    "jurisdiction": "Nevada + Federal",
+    "topicTags": ["minor labor", "employment law"],
+    "sources": [
+      {
+        "label": "Nevada Child Labor Laws",
+        "url": "https://labor.nv.gov/Wages/Child_Labor/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Additional industry restrictions may apply."
+  },
+  {
+    "id": "questions-address-change",
+    "question": "How often do I need to renew my Nevada State Business License?",
+    "shortAnswer": "Annually.",
+    "detailedAnswer": "Nevada requires businesses to renew their State Business License every year on the anniversary of the original filing date. Renewals are processed through SilverFlume.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["renewal", "state license", "annual requirement"],
+    "sources": [
+      {
+        "label": "NV State Business License Renewal",
+        "url": "https://www.nvsos.gov/sos/businesses/commercial-recordings/state-business-license",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Late renewals may result in penalties."
+  },
+  {
+    "id": "startup-support",
+    "question": "Are there special programs to help startups and entrepreneurs in Nevada?",
+    "shortAnswer": "Yes — multiple statewide support programs exist.",
+    "detailedAnswer": "Nevada offers entrepreneurial resources including SBDCs, SCORE mentorship, GOED assistance, and regional incubators and innovation hubs that provide guidance, training, and support for startups and small businesses.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["entrepreneurship", "SBDC", "startup resources"],
+    "sources": [
+      {
+        "label": "Nevada SBDC",
+        "url": "https://nevadasbdc.org/",
+        "type": "website"
+      }
+    ],
+    "disclaimer": "Programs vary depending on industry and business stage."
   }
 ]
