@@ -1,4 +1,4 @@
-// src/components/AnswerPanel.jsx
+import React from "react";// src/components/AnswerPanel.jsx
 function AnswerPanel() {
   return (
     <div className="card mb-3">

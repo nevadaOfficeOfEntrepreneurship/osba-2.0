@@ -1,0 +1,23 @@
+[
+  {
+    "id": "state-business-license-llc",
+    "question": "Do I need a Nevada state business license for my LLC?",
+    "shortAnswer": "In most cases, yes. Nevada requires most businesses, including LLCs, to obtain a State Business License from the Secretary of State each year.",
+    "detailedAnswer": "Nevada law generally requires that each person or entity doing business in the state obtain and maintain a State Business License, unless exempt (for example, certain nonprofit organizations or entities with specific statutory exemptions). For LLCs, the license is obtained and renewed through the Nevada Secretary of State, often at the same time as filing the annual list.",
+    "jurisdiction": "Nevada (statewide)",
+    "topicTags": ["state business license", "LLC", "registration"],
+    "sources": [
+      {
+        "label": "Nevada Secretary of State – State Business License",
+        "url": "https://www.nvsos.gov/some-path",
+        "type": "website"
+      },
+      {
+        "label": "NRS 76 – State Business License",
+        "url": "https://www.leg.state.nv.us/NRS/NRS-076.html",
+        "type": "statute"
+      }
+    ],
+    "disclaimer": "This answer is for general informational purposes and does not replace official guidance from Nevada agencies. If your situation is complex or unusual, please verify with the Secretary of State or OSBA."
+  }
+]

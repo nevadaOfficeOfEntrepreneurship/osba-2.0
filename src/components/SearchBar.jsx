@@ -1,4 +1,5 @@
 // src/components/SearchBar.jsx
+import React from "react";
 function SearchBar() {
   return (
     <div className="card mb-3">

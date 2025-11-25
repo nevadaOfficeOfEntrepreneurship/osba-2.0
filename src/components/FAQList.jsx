@@ -1,4 +1,5 @@
 // src/components/FAQList.jsx
+import React from "react";
 function FAQList() {
   return (
     <div className="card mb-3">
