@@ -55,6 +55,26 @@ function AnswerPanel({ faq, searchResults }) {
           </ul>
         </div>
 
+        {/* inside AnswerPanel.jsx, near bottom of card-body, before disclaimer */}
+        <div className="mb-3 d-flex align-items-center">
+          <span className="me-2">Was this helpful?</span>
+          <button
+            type="button"
+            className="btn btn-outline-success btn-sm me-2"
+            onClick={() => console.log('feedback', activeFAQ.id, 'up')}
+          >
+            👍 Yes
+          </button>
+          <button
+            type="button"
+            className="btn btn-outline-danger btn-sm"
+            onClick={() => console.log('feedback', activeFAQ.id, 'down')}
+          >
+            👎 No
+          </button>
+        </div>
+
+
         <div className="border-top pt-2 d-flex align-items-center justify-content-between">
           <small className="text-muted">
             {activeFAQ.disclaimer}

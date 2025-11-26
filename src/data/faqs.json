@@ -111,44 +111,7 @@
     ],
     "disclaimer": "Late renewals may result in penalties."
   },
-  {
-    "id": "state-and-city-license",
-    "question": "Do I need a city business license as well as a state license?",
-    "shortAnswer": "In most cases, yes—one at the state level and one at the local city or county level.",
-    "detailedAnswer": "Nevada requires a State Business License through the Secretary of State, and most local jurisdictions also require their own business license. If you operate within a city boundary, you usually need a city license. If outside city limits, licensing is often through the county.",
-    "jurisdiction": "Nevada (state and local)",
-    "topicTags": ["city license", "state license", "compliance"],
-    "sources": [
-      {
-        "label": "Nevada State Business License Overview",
-        "url": "https://www.nvsos.gov/sos/businesses/start-a-business",
-        "type": "website"
-      },
-      {
-        "label": "Clark County Business Licensing",
-        "url": "https://www.clarkcountynv.gov/business/doing_business_with_clark_county/business_license/index.php",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Always verify with the specific city or county where you operate."
-  },
-
-  {
-    "id": "updating-business-info",
-    "question": "How do I update my business address or company information?",
-    "shortAnswer": "You amend it with the Secretary of State via SilverFlume.",
-    "detailedAnswer": "Businesses can update addresses, registered agents, business names, or other information by filing an amendment online through SilverFlume. Some changes may require a fee.",
-    "jurisdiction": "Nevada",
-    "topicTags": ["amendment", "address change", "entity update"],
-    "sources": [
-      {
-        "label": "SilverFlume Amendments",
-        "url": "https://www.nvsos.gov/sos/businesses",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Certain updates require formal filings and may incur processing fees."
-  },
+  
   {
     "id": "online-selling-platform",
     "question": "Do I need a license to sell on Etsy, Amazon, or eBay?",
@@ -217,22 +180,6 @@
       }
     ],
     "disclaimer": "Always verify with the specific city or county where you operate."
-  },
-  {
-    "id": "beneficial-ownership-report",
-    "question": "Do I need to file a Beneficial Ownership Information report (BOI)?",
-    "shortAnswer": "Yes—most entities must report ownership to FinCEN starting in 2024.",
-    "detailedAnswer": "Under the Corporate Transparency Act, most corporations, LLCs, and reporting companies must submit a Beneficial Ownership Information (BOI) report to FinCEN disclosing individuals who own or control the entity. This is a federal requirement separate from state filings.",
-    "jurisdiction": "Federal",
-    "topicTags": ["BOI", "FinCEN", "ownership reporting"],
-    "sources": [
-      {
-        "label": "FinCEN BOI Filing Portal",
-        "url": "https://www.fincen.gov/boi",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Deadlines and exemptions apply depending on company status and formation date."
   },
   {
     "id": "employee-vs-contractor",
@@ -416,38 +363,7 @@
     ],
     "disclaimer": "Requirements vary by county and food preparation type."
   },
-  {
-    "id": "import-export",
-    "question": "Are there special requirements for import/export businesses?",
-    "shortAnswer": "Federal requirements apply, and some products require special permits.",
-    "detailedAnswer": "Businesses involved in cross-border trade may require customs permits, FDA compliance for certain goods, or licensing through the Department of Commerce. Nevada does not require specific import/export permits at the state level.",
-    "jurisdiction": "United States Federal",
-    "topicTags": ["import", "export", "customs"],
-    "sources": [
-      {
-        "label": "U.S. Customs and Border Protection",
-        "url": "https://www.cbp.gov/trade",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Requirements vary by product category."
-  },
-  {
-    "id": "banking-requirements",
-    "question": "What documents do I need to open a business bank account?",
-    "shortAnswer": "Typically your EIN, formation documents, and ID.",
-    "detailedAnswer": "Most banks require an EIN, Articles of Organization or Incorporation, Operating Agreement or bylaws, business license, and personal identification to open a business account. Requirements may vary by bank.",
-    "jurisdiction": "United States (general)",
-    "topicTags": ["bank account", "documentation"],
-    "sources": [
-      {
-        "label": "IRS EIN Guidance",
-        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Banks may have additional internal compliance requirements."
-  },
+  
   {
     "id": "registered-agent",
     "question": "What is a registered agent and do I need one?",
@@ -865,22 +781,7 @@
     ],
     "disclaimer": "Certain foods like meats, dairy products, seafood, and cooked foods are prohibited from home production."
   },
-  {
-    "id": "home-based-business-license",
-    "question": "What if I operate from my home – do I still need a license?",
-    "shortAnswer": "Usually yes—home-based businesses typically still require licensing and may require zoning clearance.",
-    "detailedAnswer": "Nevada generally requires businesses to be licensed regardless of where they physically operate, including from a home address. Local jurisdictions often have home-occupation rules, including restrictions related to signage, customers visiting the home, and parking.",
-    "jurisdiction": "Nevada + local municipalities",
-    "topicTags": ["home based business", "zoning", "licensing"],
-    "sources": [
-      {
-        "label": "City of Las Vegas Home-Based Business Guidelines",
-        "url": "https://www.lasvegasnevada.gov/Business/Business-Licenses/Home-Based-Businesses",
-        "type": "website"
-      }
-    ],
-    "disclaimer": "Rules vary by jurisdiction—check your local city or county requirements."
-  },
+  
   {
     "id": "ucc-filing",
     "question": "What is a UCC filing and does my business need one?",
