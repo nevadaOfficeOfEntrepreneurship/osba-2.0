@@ -45,6 +45,28 @@ function App() {
           </div>
         </div>
       </main>
+
+      <section className="mt-4">
+        <div className="card border-0 bg-transparent">
+          <div className="card-body p-0 text-muted" style={{ fontSize: '0.9rem' }}>
+            <p className="mb-1">
+              <strong>About OSBA 2.0 (Pilot)</strong>
+            </p>
+            <p className="mb-1">
+              This internal pilot is maintained by the Nevada Governor's Office of Economic Development
+              (GOED) Office of Entrepreneurship. It aggregates curated, public information from
+              state and local agencies to help entrepreneurs quickly find licensing and registration
+              guidance.
+
+            </p>
+            <p className="mb-0">
+              Note: The tool is informational only and does not provide legal advice. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+
     </div>
     )
 }
